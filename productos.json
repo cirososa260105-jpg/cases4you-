@@ -604,9 +604,11 @@
     "precio": 600000,
     "categoria": "accesorios",
     "descripcion": "xdgdsdrgbdb",
-    "imagenUrl": "",
-    "modelos": [],
-    "estado": "borrador",
+    "imagenUrl": "https://es.vecteezy.com/fotos-gratis/color-rojo",
+    "modelos": [
+      "3"
+    ],
+    "estado": "publicado",
     "disponibilidad": "activo"
   },
   {
