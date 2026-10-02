@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Accesorios Cases4You. Consultá disponibilidad por WhatsApp.">
+  <title>Accesorios | Cases4You</title>
+  <!-- Todas las páginas usan los mismos archivos de apariencia y comportamiento. -->
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="saltar-contenido" href="#contenido">Saltar al contenido</a>
+  <header class="cabecera">
+    <div class="contenedor barra">
+      <a class="marca marca-cabecera" href="index.html">
+        <img class="logo-marca" src="images/logo-cases4you.jpg" alt="" width="48" height="48">
+        <span>Cases4You<span class="acento" aria-hidden="true">.</span></span>
+      </a>
+      <!-- En pantallas amplias, los enlaces se muestran junto a la marca. -->
+      <nav class="navegacion-escritorio" aria-label="Navegación principal">
+        <a href="index.html">Inicio</a>
+        <a href="cases.html">Cases</a>
+        <a href="accesorios.html" aria-current="page">Accesorios</a>
+      </nav>
+      <div class="acciones-cabecera">
+        <!-- details y summary crean un desplegable que también funciona sin JavaScript. -->
+        <details id="menu-navegacion" class="menu-desplegable">
+          <summary class="boton-menu" aria-label="Menú de navegación">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true" focusable="false">
+              <path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round"/>
+            </svg>
+          </summary>
+          <nav class="opciones-menu" aria-label="Navegación principal">
+              <a href="index.html">Inicio</a>
+              <a href="cases.html">Cases</a>
+              <a href="accesorios.html" aria-current="page">Accesorios</a>
+          </nav>
+        </details>
+        <button id="abrir-busqueda" class="icono-cabecera" type="button" aria-label="Buscar productos" aria-expanded="false" aria-controls="busqueda-sitio"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5" stroke-linecap="round"/></svg></button>
+        <a class="icono-cabecera" href="https://www.instagram.com/cases4you.py/" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Cases4You (abre otra pestaña)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+        <button class="boton-carrito" type="button" data-abrir-carrito aria-label="Abrir carrito, 0 productos" aria-haspopup="dialog" aria-controls="carrito">
+          <!-- SVG dibuja un ícono nítido a cualquier tamaño, sin descargar imágenes. -->
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true" focusable="false">
+            <path d="M3 3h2l2.4 12h11.2l2-8H6" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="9" cy="20" r="1"/>
+            <circle cx="18" cy="20" r="1"/>
+          </svg>
+          <span data-contador aria-hidden="true">0</span>
+        </button>
+      </div>
+    </div>
+    <form id="busqueda-sitio" class="contenedor buscador-sitio" role="search" hidden>
+      <label for="buscar-productos">Buscar productos en esta página</label>
+      <div class="fila-busqueda"><input id="buscar-productos" type="search" placeholder="Nombre, descripción o modelo" autocomplete="off"><button type="reset" class="boton-secundario">Limpiar</button></div>
+    </form>
+  </header>
+  <main id="contenido">
+    <section class="encabezado-categoria">
+      <div class="contenedor">
+        <p class="etiqueta">Tu día a día</p>
+        <h1>Accesorios</h1>
+        <p class="introduccion">Explorá nuestros accesorios y consultá disponibilidad.</p>
+      </div>
+    </section>
+
+
+    <section class="seccion contenedor" aria-labelledby="titulo-productos">
+      <h2 id="titulo-productos">Productos</h2>
+      <p class="nota-demo">La disponibilidad final se confirma por WhatsApp.</p>
+      <p id="estado-catalogo" role="status">Cargando productos…</p>
+      <button id="reintentar-catalogo" class="boton-secundario" type="button" hidden>Reintentar</button>
+      <p id="resultado-busqueda" role="status" aria-live="polite"></p>
+      <div id="lista-productos" class="productos" data-categoria="accesorios"></div>
+      <noscript>Activá JavaScript para ver los productos y usar el carrito.</noscript>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor barra">
+      <a class="marca" href="index.html">Cases4You</a>
+      <a href="index.html#como-comprar">Cómo comprar</a>
+      <a href="https://www.instagram.com/cases4you.py/">@cases4you.py</a>
+    </div>
+  </footer>
+
+  <!-- JavaScript copia esta ficha para cada producto de productos.json. -->
+  <template id="plantilla-producto">
+    <article class="producto">
+      <div class="producto-foto">
+        <img class="producto-imagen" src="images/logo-cases4you.jpg" alt="" width="1024" height="1024" loading="lazy">
+        <span>Foto no disponible</span>
+      </div>
+      <form class="producto-detalle">
+        <p class="etiqueta producto-categoria"></p>
+        <h3 class="producto-nombre"></h3>
+        <p class="producto-descripcion"></p>
+        <p class="precio"></p>
+        <div class="campo-modelo">
+          <label>Modelo</label>
+          <select required>
+            <option value="" disabled selected>Elegí un modelo</option>
+          </select>
+        </div>
+        <p class="disponibilidad">Consultar disponibilidad</p>
+        <button class="boton" type="submit">Agregar al carrito</button>
+      </form>
+    </article>
+  </template>
+
+  <!-- dialog se encarga del foco, de la ventana modal y de cerrar con Escape. -->
+  <dialog id="carrito" class="carrito" aria-labelledby="titulo-carrito">
+    <div class="carrito-cabecera">
+      <h2 id="titulo-carrito">Tu carrito</h2>
+      <button id="cerrar-carrito" class="boton-secundario" type="button" autofocus>Cerrar</button>
+    </div>
+    <p class="nota-demo">Revisá los productos y modelos antes de consultar por WhatsApp.</p>
+    <p id="revision-carrito" role="status"></p>
+    <p id="carrito-vacio">Tu carrito está vacío. Elegí un producto para empezar.</p>
+    <ul id="lista-carrito" class="lista-carrito" aria-label="Productos seleccionados"></ul>
+    <div class="carrito-total">
+      <span>Total de referencia</span>
+      <strong id="total-carrito">Gs. 0</strong>
+    </div>
+    <p class="nota">La disponibilidad y el importe final se confirman por WhatsApp.</p>
+    <label class="mensaje-etiqueta" for="mensaje-pedido">Vista previa del mensaje</label>
+    <textarea id="mensaje-pedido" rows="9" readonly placeholder="Agregá productos para preparar tu mensaje."></textarea>
+    <div class="acciones-carrito">
+      <button id="copiar-mensaje" class="boton-secundario" type="button" disabled>Copiar mensaje</button>
+      <button id="continuar-whatsapp" class="boton" type="button" disabled>Continuar por WhatsApp</button>
+    </div>
+    <p id="configuracion-whatsapp" class="nota"></p>
+    <p id="estado-carrito" role="status"></p>
+  </dialog>
+
+  <template id="plantilla-linea-carrito">
+    <li class="linea-carrito">
+      <h3 class="linea-nombre"></h3>
+      <p class="linea-modelo"></p>
+      <p class="linea-precio"></p>
+      <div class="linea-controles">
+        <div class="cantidad">
+          <button class="restar" type="button">−</button>
+          <span class="unidades"></span>
+          <button class="sumar" type="button">+</button>
+        </div>
+        <button class="quitar" type="button">Quitar</button>
+      </div>
+      <p class="linea-subtotal"></p>
+    </li>
+  </template>
+  <p id="aviso-carrito" class="aviso-carrito" role="status" aria-live="polite"></p>
+
+</body>
+</html>

@@ -1,0 +1,712 @@
+[
+  {
+    "id": 1,
+    "categoria": "cases",
+    "nombre": "[PRUEBA] Case transparente",
+    "precio": 45000,
+    "descripcion": "Primera case de ejemplo para probar tu selección.",
+    "modelos": [
+      "iPhone 15",
+      "iPhone 15 Pro",
+      "Samsung Galaxy A55"
+    ],
+    "imagenUrl": "images/logo-cases4you.jpg",
+    "estado": "archivado",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 2,
+    "categoria": "cases",
+    "nombre": "[PRUEBA] Case de color",
+    "precio": 55000,
+    "descripcion": "Otra opción de prueba, con modelos a elección.",
+    "modelos": [
+      "iPhone 15",
+      "iPhone 15 Pro",
+      "Samsung Galaxy A55"
+    ],
+    "imagenUrl": "images/logo-cases4you.jpg",
+    "estado": "archivado",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 3,
+    "categoria": "cases",
+    "nombre": "[PRUEBA] Case con diseño",
+    "precio": 35000,
+    "descripcion": "Un tercer diseño para completar el catálogo de prueba.",
+    "modelos": [
+      "iPhone 15",
+      "iPhone 15 Pro",
+      "Samsung Galaxy A55"
+    ],
+    "imagenUrl": "images/logo-cases4you.jpg",
+    "estado": "archivado",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 4,
+    "categoria": "accesorios",
+    "nombre": "[PRUEBA] Audífonos",
+    "precio": 120000,
+    "descripcion": "Ejemplo de audífonos para probar el carrito.",
+    "modelos": [],
+    "imagenUrl": "images/logo-cases4you.jpg",
+    "estado": "archivado",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 5,
+    "categoria": "accesorios",
+    "nombre": "[PRUEBA] Cargador",
+    "precio": 65000,
+    "descripcion": "Ejemplo de cargador. Los detalles reales vendrán después.",
+    "modelos": [],
+    "imagenUrl": "images/logo-cases4you.jpg",
+    "estado": "archivado",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 6,
+    "categoria": "accesorios",
+    "nombre": "[PRUEBA] Cable",
+    "precio": 25000,
+    "descripcion": "Ejemplo de cable para combinar con otros productos.",
+    "modelos": [],
+    "imagenUrl": "images/logo-cases4you.jpg",
+    "estado": "archivado",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1001,
+    "nombre": "Mag Safe Original",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "17 Pro"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1002,
+    "nombre": "Mag Safe Original",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "17 Pro Max"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1003,
+    "nombre": "Mag Safe Original",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "15 Pro Max"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1004,
+    "nombre": "Mag Safe Original",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "14 Pro Max"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1005,
+    "nombre": "Mag Safe Original",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "16 Pro Max"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1006,
+    "nombre": "Mag Safe Original",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "16 Pro"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1007,
+    "nombre": "Mag Safe Original",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "14"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1008,
+    "nombre": "Mag Safe Original",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "13"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1009,
+    "nombre": "Negro con naranja Mag Safe",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "16"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1010,
+    "nombre": "Negro con naranja Mag Safe",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "13"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1011,
+    "nombre": "Negro con naranja Mag Safe",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "14"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1012,
+    "nombre": "Negro con naranja Mag Safe",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "16 Pro Max"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1013,
+    "nombre": "Negro con naranja Mag Safe",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "15 Pro"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1014,
+    "nombre": "Negro con naranja Mag Safe",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "14 Pro"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1015,
+    "nombre": "Flores",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "17 Pro Max"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1016,
+    "nombre": "Coral rosado",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "17 Pro Max"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1017,
+    "nombre": "Coral azul",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "17 Pro Max"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1018,
+    "nombre": "Gris",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "17 Pro Max"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1019,
+    "nombre": "Caballo negro",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "17 Pro Max"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1020,
+    "nombre": "Celeste Mag Safe",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "17 Pro Max"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1021,
+    "nombre": "Mag Safe con Soporte Negro",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "16 Pro"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1022,
+    "nombre": "Gris",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "16 Pro"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1023,
+    "nombre": "Coral Rosado",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "16 Pro"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1024,
+    "nombre": "Caballo negro",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "16 Pro"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1025,
+    "nombre": "Caballo negro",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "17 Pro"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1026,
+    "nombre": "Coral Rosado",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "17 Pro"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1027,
+    "nombre": "Gris",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "17 Pro"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1028,
+    "nombre": "Negro Soporte Mag Safe",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "16 Pro Max"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1029,
+    "nombre": "Caballo negro",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "16 Pro Max"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1030,
+    "nombre": "Caballo Negro",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "13 Pro"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1031,
+    "nombre": "Gatito",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "13"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1032,
+    "nombre": "Negro Soporte Mag Safe",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "15"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1033,
+    "nombre": "Negro soporte Mag Safe",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "14 Pro Max"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1034,
+    "nombre": "Básico Negro",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "16 Pro Max"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1035,
+    "nombre": "Básico Gris",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "16 Pro Max"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1036,
+    "nombre": "Básico Azul oscuro",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "16 Pro Max"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1037,
+    "nombre": "Básico Rosado",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "16"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1038,
+    "nombre": "Básico Blanco",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "16"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1039,
+    "nombre": "Básico Azul oscuro",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "16"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1040,
+    "nombre": "Básico Azul",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "15 Pro"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1041,
+    "nombre": "Básico Lila",
+    "precio": null,
+    "categoria": "cases",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [
+      "17 Pro Max"
+    ],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1042,
+    "nombre": "Billetera Marrón",
+    "precio": null,
+    "categoria": "accesorios",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1043,
+    "nombre": "Billetera Negro",
+    "precio": null,
+    "categoria": "accesorios",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1044,
+    "nombre": "Billetera Transparente",
+    "precio": null,
+    "categoria": "accesorios",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1045,
+    "nombre": "Soporte de celular",
+    "precio": null,
+    "categoria": "accesorios",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1046,
+    "nombre": "Protector de cargador Skull",
+    "precio": null,
+    "categoria": "accesorios",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1047,
+    "nombre": "Protector de cargador Spider",
+    "precio": null,
+    "categoria": "accesorios",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1048,
+    "nombre": "Airpods",
+    "precio": null,
+    "categoria": "accesorios",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1049,
+    "nombre": "Cable tipo C a Lightning",
+    "precio": null,
+    "categoria": "accesorios",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  },
+  {
+    "id": 1050,
+    "nombre": "Cable tipo C a tipo C",
+    "precio": null,
+    "categoria": "accesorios",
+    "descripcion": "",
+    "imagenUrl": "",
+    "modelos": [],
+    "estado": "borrador",
+    "disponibilidad": "activo"
+  }
+]

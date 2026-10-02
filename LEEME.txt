@@ -1,0 +1,68 @@
+CASES4YOU — CATÁLOGO WEB
+
+VERSIÓN 1.0 — 2 de octubre de 2026
+Primera versión del catálogo, preparada para Cloudflare Pages.
+
+ESTADO DEL INVENTARIO (2 de octubre de 2026)
+productos.json contiene 50 variantes reales en borrador y 6 ejemplos archivados.
+Todavía faltan precios, fotos y descripciones; no hay productos visibles hasta
+completar y publicar fichas desde el panel. No se inventaron importes ni fotos.
+Las cantidades del inventario original están en una nota privada fuera del sitio.
+
+ABRIR LOCALMENTE
+Serví esta carpeta por HTTP; fetch no funciona abriendo el HTML con doble clic.
+Si Python está instalado: python -m http.server 8000 --bind 127.0.0.1
+En esta computadora también podés usar el Python incluido con Codex:
+& 'C:\Users\ciros\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' -m http.server 8000 --bind 127.0.0.1
+Abrí http://127.0.0.1:8000/. Ctrl+C detiene el servidor de pruebas.
+El sitio público no requiere Python, Node, backend ni compilación.
+
+ARCHIVOS
+index.html, cases.html, accesorios.html: páginas y plantillas.
+styles.css: diseño responsive compartido.
+script.js: carga/validación, búsqueda, carrito y mensaje de WhatsApp.
+productos.json: única fuente compartida de productos.
+images/: imágenes del sitio.
+_headers: lectura del JSON desde el panel local y control de caché en Cloudflare.
+
+DATOS
+id: entero positivo único, no reutilizar al eliminar.
+nombre, categoria (cases/accesorios), descripcion, imagenUrl, modelos.
+precio: entero positivo; null significa pendiente SOLO en productos no publicados.
+imagenUrl: ruta relativa o HTTPS; cadena vacía permitida si no está publicado.
+modelos: lista de compatibilidades; [] para producto sin selector.
+estado: borrador, publicado, pausado o archivado.
+disponibilidad: activo o agotado; nunca cantidades exactas de existencias.
+Solo publicados aparecen; un agotado se muestra sin botón de agregar.
+Un publicado requiere precio, imagen válida y descripción.
+El JSON es público incluso para borradores: no introducir notas privadas ni tokens.
+
+PANEL PARA PERIER
+Está fuera del repositorio, en ../admin-local/admin.html. Su guía se encuentra en
+../admin-local/LEEME.txt. El archivo inicial fechado es un respaldo para importar
+mientras no exista la primera versión en GitHub, no una segunda fuente compartida.
+Los cambios del panel se guardan en GitHub y Cloudflare despliega desde main.
+La publicación del hosting se configura por separado en Cloudflare Pages.
+
+HOSTING
+Recomendado: Cloudflare Pages. Dominio previsto: cases4you.com.py.
+Build exit 0, salida . y main como rama de producción.
+Subir solamente el contenido de esta carpeta; nunca la carpeta padre ni admin-local.
+Los pasos de dominio y accesos están en ../admin-local/HOSTING-Y-DOMINIO.md.
+
+COMPROBAR EL FLUJO
+- Inicio y categorías vacíos mientras todos los reales sean borradores.
+- Completar una ficha en el panel y elegir publicado; comprobar la vista previa.
+- Tras publicar y finalizar el despliegue, elegir modelo y agregar al carrito.
+- Agregar dos modelos del mismo producto: deben quedar en filas distintas.
+- Navegar, recargar, modificar cantidades, revisar el total y el mensaje.
+- Marcar agotado/pausado y recargar: se retira del carrito con aviso.
+- La lupa busca por nombre, descripción y modelo en la página actual.
+- Instagram aparece junto al carrito, con el perfil cases4you.py existente.
+- Probar Tab, Escape y anchos de celular. No se envía WhatsApp automáticamente.
+
+El número 595985496660 está al principio de script.js. La disponibilidad e importe
+final se confirman por WhatsApp. El carrito guarda id, modelo y cantidad en
+localStorage; los precios se leen del JSON. Cambiar origen/puerto cambia el carrito.
+Si el JSON no carga, no se borra el carrito guardado. El sitio lee cambios al
+recargar; el panel consulta GitHub y la web pública cada minuto cuando está visible.
