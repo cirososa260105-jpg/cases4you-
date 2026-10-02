@@ -599,19 +599,6 @@
     "disponibilidad": "activo"
   },
   {
-    "id": 1048,
-    "nombre": "Airpods",
-    "precio": 600000,
-    "categoria": "accesorios",
-    "descripcion": "xdgdsdrgbdb",
-    "imagenUrl": "https://es.vecteezy.com/fotos-gratis/color-rojo",
-    "modelos": [
-      "3"
-    ],
-    "estado": "publicado",
-    "disponibilidad": "activo"
-  },
-  {
     "id": 1049,
     "nombre": "Cable tipo C a Lightning",
     "precio": null,
