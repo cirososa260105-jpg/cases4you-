@@ -61,7 +61,7 @@ COMPROBAR EL FLUJO
 - Instagram aparece junto al carrito, con el perfil cases4you.py existente.
 - Probar Tab, Escape y anchos de celular. No se envía WhatsApp automáticamente.
 
-El número 595985496660 está al principio de script.js. La disponibilidad e importe
+El número 595981842761 (0981842761) está al principio de script.js. La disponibilidad e importe
 final se confirman por WhatsApp. El carrito guarda id, modelo y cantidad en
 localStorage; los precios se leen del JSON. Cambiar origen/puerto cambia el carrito.
 Si el JSON no carga, no se borra el carrito guardado. El sitio lee cambios al

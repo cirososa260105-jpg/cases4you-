@@ -1,5 +1,5 @@
 // El catálogo compartido vive en productos.json; localStorage solo guarda el carrito.
-const NUMERO_WHATSAPP = "595985496660";
+const NUMERO_WHATSAPP = "595981842761";
 const CLAVE_CARRITO = "cases4you-carrito-v2";
 const CLAVE_ANTERIOR = "cases4you-carrito-v1";
 const IDS_ANTERIORES = { "case-1": 1, "case-2": 2, "case-3": 3,
@@ -118,7 +118,7 @@ function crearMensaje(items) {
       "Subtotal: " + dinero(producto.precio * fila.cantidad), ""
     );
   });
-  lineas.push("Total de referencia: " + dinero(totalPedido(items)), "", "¿Están disponibles?");
+  lineas.push("Total: " + dinero(totalPedido(items)), "", "¿Están disponibles?");
   return lineas.join("\n");
 }
 
@@ -284,7 +284,7 @@ function actualizarCarrito(guardar = true) {
   botonWhatsApp.disabled = !enlaceWhatsApp(carrito);
   document.getElementById("configuracion-whatsapp").textContent = /^[1-9]\d{6,14}$/.test(NUMERO_WHATSAPP)
     ? "WhatsApp abrirá el mensaje preparado. Vos decidís cuándo enviarlo."
-    : "Falta configurar el número de Cases4You. Mientras tanto, podés revisar y copiar el mensaje de prueba.";
+    : "Falta configurar el número de Cases4You. Mientras tanto, podés revisar y copiar el mensaje del pedido.";
   document.getElementById("revision-carrito").textContent = avisoRevision;
   estadoCarrito.textContent = "";
   if (guardar) guardarCarrito();
