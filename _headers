@@ -1,3 +1,7 @@
 /productos.json
   Access-Control-Allow-Origin: *
   Cache-Control: no-store
+
+# El teléfono y el mensaje viven aquí: comprobar cambios al volver a cargar.
+/script.js
+  Cache-Control: no-cache, max-age=0, must-revalidate
