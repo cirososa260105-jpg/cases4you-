@@ -509,14 +509,14 @@
   {
     "id": 1040,
     "nombre": "Básico Azul",
-    "precio": null,
+    "precio": 30000,
     "categoria": "cases",
-    "descripcion": "",
-    "imagenUrl": "",
+    "descripcion": "Case",
+    "imagenUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuCkHGRKUq-6Pj9dvxnhxdydfOmcL-eA83XVBS0RqSPg&s=10",
     "modelos": [
       "15 Pro"
     ],
-    "estado": "borrador",
+    "estado": "publicado",
     "disponibilidad": "activo"
   },
   {
