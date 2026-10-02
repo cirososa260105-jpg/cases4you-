@@ -2,6 +2,6 @@
   Access-Control-Allow-Origin: *
   Cache-Control: no-store
 
-# El teléfono y el mensaje viven aquí: comprobar cambios al volver a cargar.
+# El teléfono y el mensaje viven aquí: no conservar versiones antiguas.
 /script.js
-  Cache-Control: no-cache, max-age=0, must-revalidate
+  Cache-Control: no-store

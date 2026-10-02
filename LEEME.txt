@@ -65,7 +65,7 @@ El número 595981842761 (0981842761) está al principio de script.js. La disponi
 final se confirman por WhatsApp. El carrito guarda id, modelo y cantidad en
 localStorage; los precios se leen del JSON. Cambiar origen/puerto cambia el carrito.
 Las páginas cargan script.js con una versión en su URL para reemplazar copias
-antiguas guardadas en el navegador. _headers exige revalidar ese archivo al cargar.
+antiguas guardadas en el navegador. _headers impide guardar ese archivo en caché.
 Una pestaña que ya estaba abierta debe recargarse para usar el código nuevo.
 Si el JSON no carga, no se borra el carrito guardado. El sitio lee cambios al
 recargar; el panel consulta GitHub y la web pública cada minuto cuando está visible.
