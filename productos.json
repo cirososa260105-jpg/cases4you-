@@ -597,13 +597,15 @@
   },
   {
     "id": 1047,
-    "nombre": "Protector de cargador Spider",
-    "precio": null,
+    "nombre": "Cubre Cargador Skull",
+    "precio": 40000,
     "categoria": "accesorios",
-    "descripcion": "",
-    "imagenUrl": "",
-    "modelos": [],
-    "estado": "borrador",
+    "descripcion": "Protector de Cable y Conector con diseño de calavera",
+    "imagenUrl": "https://img.ltwebstatic.com/images3_spmp/2024/04/18/83/171343045809cdae7b88ae59355075fe0f2a583dc4.webp",
+    "modelos": [
+      "Todos"
+    ],
+    "estado": "publicado",
     "disponibilidad": "activo"
   },
   {
