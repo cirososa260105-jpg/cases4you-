@@ -613,10 +613,10 @@
     "nombre": "Cable Tipo C",
     "precio": 40000,
     "categoria": "accesorios",
-    "descripcion": "",
+    "descripcion": "Cable Tipo c a Tipo C",
     "imagenUrl": "https://abisaccesorios.com/wp-content/uploads/2024/12/IPCC-1m.jpg",
     "modelos": [],
-    "estado": "borrador",
+    "estado": "publicado",
     "disponibilidad": "activo"
   }
 ]
