@@ -573,13 +573,15 @@
   },
   {
     "id": 1045,
-    "nombre": "Soporte de celular",
-    "precio": null,
+    "nombre": "Cubre Cargador Spider",
+    "precio": 40000,
     "categoria": "accesorios",
-    "descripcion": "",
-    "imagenUrl": "",
-    "modelos": [],
-    "estado": "borrador",
+    "descripcion": "Protector de cable y conector con diseño de Araña",
+    "imagenUrl": "https://img.ltwebstatic.com/images3_spmp/2024/04/18/83/171343045809cdae7b88ae59355075fe0f2a583dc4.webp",
+    "modelos": [
+      "Todos"
+    ],
+    "estado": "publicado",
     "disponibilidad": "activo"
   },
   {
