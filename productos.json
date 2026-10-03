@@ -606,11 +606,11 @@
   },
   {
     "id": 1049,
-    "nombre": "Cable tipo C a Lightning",
-    "precio": null,
+    "nombre": "Cable Lightning",
+    "precio": 35000,
     "categoria": "accesorios",
-    "descripcion": "",
-    "imagenUrl": "",
+    "descripcion": "Cable Tipo C a Lightning",
+    "imagenUrl": "https://i.ebayimg.com/images/g/WIIAAOSwxydm9dHs/s-l1600.webp",
     "modelos": [],
     "estado": "borrador",
     "disponibilidad": "activo"
