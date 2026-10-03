@@ -535,12 +535,14 @@
   {
     "id": 1042,
     "nombre": "Billetera Marrón",
-    "precio": null,
+    "precio": 55000,
     "categoria": "accesorios",
-    "descripcion": "",
-    "imagenUrl": "",
-    "modelos": [],
-    "estado": "borrador",
+    "descripcion": "Billetera Magnetica",
+    "imagenUrl": "https://img.ltwebstatic.com/v4/j/spmp/2025/12/18/1e/17660587821cd64b3cc8dc1d063c7c4e3b9b05e9fc.webp",
+    "modelos": [
+      "Todos"
+    ],
+    "estado": "publicado",
     "disponibilidad": "activo"
   },
   {
