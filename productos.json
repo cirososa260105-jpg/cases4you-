@@ -507,19 +507,6 @@
     "disponibilidad": "activo"
   },
   {
-    "id": 1040,
-    "nombre": "Básico Azul",
-    "precio": 30000,
-    "categoria": "cases",
-    "descripcion": "Case",
-    "imagenUrl": "https://www.google.com/imgres?q=iphone%2015%20pro%20funda%20azul&imgurl=https%3A%2F%2Fcompumarket.com.py%2Fstorage%2Fsku%2Fthumbs%2Fcompumarket-estuches-case-silicone-iphone-14-plus-cobalt-blue-1-1-1740680159.jpg.webp%3Fv%3D1790658541&imgrefurl=https%3A%2F%2Fcompumarket.com.py%2Fproducto%2F52046%2Ffunda-magsafe-iphone-15-pro&docid=dAgNzqLE5c0_zM&tbnid=ydvelEw8JY1__M&vet=12ahUKEwits-TErpyXAxUyA7kGHW1yIasQnPAOegUIjwIQAA..i&w=300&h=300&hcb=2&ved=2ahUKEwits-TErpyXAxUyA7kGHW1yIasQnPAOegUIjwIQAA",
-    "modelos": [
-      "15 Pro"
-    ],
-    "estado": "publicado",
-    "disponibilidad": "activo"
-  },
-  {
     "id": 1041,
     "nombre": "Básico Lila",
     "precio": null,
