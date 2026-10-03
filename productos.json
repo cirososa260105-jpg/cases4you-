@@ -546,11 +546,13 @@
   {
     "id": 1043,
     "nombre": "Billetera Negro",
-    "precio": null,
+    "precio": 55,
     "categoria": "accesorios",
     "descripcion": "",
-    "imagenUrl": "",
-    "modelos": [],
+    "imagenUrl": "https://img.ltwebstatic.com/images3_spmp/2024/12/03/4d/173323528995e758a5e52ddd16b1f86622b031bac8.webp",
+    "modelos": [
+      "Todos"
+    ],
     "estado": "borrador",
     "disponibilidad": "activo"
   },
