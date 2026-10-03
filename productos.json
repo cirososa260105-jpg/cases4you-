@@ -545,15 +545,15 @@
   },
   {
     "id": 1043,
-    "nombre": "Billetera Negro",
+    "nombre": "Billetera Negra",
     "precio": 55,
     "categoria": "accesorios",
-    "descripcion": "",
+    "descripcion": "Billetera Magnetica",
     "imagenUrl": "https://img.ltwebstatic.com/images3_spmp/2024/12/03/4d/173323528995e758a5e52ddd16b1f86622b031bac8.webp",
     "modelos": [
       "Todos"
     ],
-    "estado": "borrador",
+    "estado": "publicado",
     "disponibilidad": "activo"
   },
   {
