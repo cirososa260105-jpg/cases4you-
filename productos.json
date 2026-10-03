@@ -561,12 +561,14 @@
   {
     "id": 1044,
     "nombre": "Billetera Transparente",
-    "precio": null,
+    "precio": 55000,
     "categoria": "accesorios",
-    "descripcion": "",
-    "imagenUrl": "",
-    "modelos": [],
-    "estado": "borrador",
+    "descripcion": "Billetera Magnetica",
+    "imagenUrl": "https://img.ltwebstatic.com/v4/j/spmp/2025/10/20/48/1760946017c749d15a2d8834e9328ea6192d8ecca6.webp",
+    "modelos": [
+      "Todos"
+    ],
+    "estado": "publicado",
     "disponibilidad": "activo"
   },
   {
