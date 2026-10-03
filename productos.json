@@ -584,13 +584,15 @@
   },
   {
     "id": 1046,
-    "nombre": "Protector de cargador Skull",
-    "precio": null,
+    "nombre": "Airpods Pro",
+    "precio": 160000,
     "categoria": "accesorios",
-    "descripcion": "",
-    "imagenUrl": "",
-    "modelos": [],
-    "estado": "borrador",
+    "descripcion": "Audífonos Airpods Pro Gen 2 con Conexion Tipo C",
+    "imagenUrl": "https://visuar.com.py/28321-thickbox_default/auriculares-apple-airpods-pro-segunda-generacion-tipo-c.jpg",
+    "modelos": [
+      "Todos"
+    ],
+    "estado": "publicado",
     "disponibilidad": "activo"
   },
   {
