@@ -265,19 +265,6 @@
     "disponibilidad": "activo"
   },
   {
-    "id": 1026,
-    "nombre": "Coral Rosado",
-    "precio": null,
-    "categoria": "cases",
-    "descripcion": "",
-    "imagenUrl": "",
-    "modelos": [
-      "17 Pro"
-    ],
-    "estado": "borrador",
-    "disponibilidad": "activo"
-  },
-  {
     "id": 1027,
     "nombre": "Gris",
     "precio": null,
