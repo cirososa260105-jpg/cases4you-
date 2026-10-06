@@ -1,18 +1,5 @@
 [
   {
-    "id": 1012,
-    "nombre": "Negro con naranja Mag Safe",
-    "precio": null,
-    "categoria": "cases",
-    "descripcion": "",
-    "imagenUrl": "",
-    "modelos": [
-      "16 Pro Max"
-    ],
-    "estado": "borrador",
-    "disponibilidad": "activo"
-  },
-  {
     "id": 1013,
     "nombre": "Negro con naranja Mag Safe",
     "precio": null,
