@@ -435,19 +435,6 @@
     "disponibilidad": "activo"
   },
   {
-    "id": 1037,
-    "nombre": "Básico Rosado",
-    "precio": null,
-    "categoria": "cases",
-    "descripcion": "",
-    "imagenUrl": "",
-    "modelos": [
-      "16"
-    ],
-    "estado": "borrador",
-    "disponibilidad": "activo"
-  },
-  {
     "id": 1038,
     "nombre": "Básico Blanco",
     "precio": null,
