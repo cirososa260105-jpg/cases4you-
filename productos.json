@@ -421,19 +421,6 @@
     "disponibilidad": "activo"
   },
   {
-    "id": 1034,
-    "nombre": "Básico Negro",
-    "precio": null,
-    "categoria": "cases",
-    "descripcion": "",
-    "imagenUrl": "",
-    "modelos": [
-      "16 Pro Max"
-    ],
-    "estado": "borrador",
-    "disponibilidad": "activo"
-  },
-  {
     "id": 1036,
     "nombre": "Case Gris",
     "precio": 60000,
