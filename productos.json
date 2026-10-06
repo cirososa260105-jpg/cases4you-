@@ -618,5 +618,27 @@
     "modelos": [],
     "estado": "publicado",
     "disponibilidad": "activo"
+  },
+  {
+    "id": 1791296421845,
+    "nombre": "Case Mag Safe",
+    "precio": 55000,
+    "categoria": "cases",
+    "descripcion": "Case con imán Mag Safe",
+    "imagenUrl": "https://www.dastore.pe/cdn/shop/files/Case-Ringke-Fusion-X-iPhone-17-Pro-Black_81fdb1be-3025-4594-8088-6e5f68241a8d.jpg?v=1759767866",
+    "modelos": [
+      "18 Pro Max",
+      "18 Pro",
+      "17 Pro Max",
+      "17 Pro",
+      "16 Pro Max",
+      "16 Pro",
+      "15 Pro Max",
+      "14 Pro Max",
+      "14",
+      "13"
+    ],
+    "estado": "publicado",
+    "disponibilidad": "activo"
   }
 ]
