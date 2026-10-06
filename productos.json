@@ -224,19 +224,6 @@
     "disponibilidad": "activo"
   },
   {
-    "id": 1022,
-    "nombre": "Gris",
-    "precio": null,
-    "categoria": "cases",
-    "descripcion": "",
-    "imagenUrl": "",
-    "modelos": [
-      "16 Pro"
-    ],
-    "estado": "borrador",
-    "disponibilidad": "activo"
-  },
-  {
     "id": 1023,
     "nombre": "Case Coral Rosado",
     "precio": 60000,
