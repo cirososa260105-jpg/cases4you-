@@ -195,19 +195,6 @@
     "disponibilidad": "activo"
   },
   {
-    "id": 1018,
-    "nombre": "Gris",
-    "precio": null,
-    "categoria": "cases",
-    "descripcion": "",
-    "imagenUrl": "",
-    "modelos": [
-      "17 Pro Max"
-    ],
-    "estado": "borrador",
-    "disponibilidad": "activo"
-  },
-  {
     "id": 1019,
     "nombre": "Case Negro Jinete",
     "precio": 60000,
