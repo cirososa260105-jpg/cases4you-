@@ -396,19 +396,6 @@
     "disponibilidad": "activo"
   },
   {
-    "id": 1038,
-    "nombre": "Básico Blanco",
-    "precio": null,
-    "categoria": "cases",
-    "descripcion": "",
-    "imagenUrl": "",
-    "modelos": [
-      "16"
-    ],
-    "estado": "borrador",
-    "disponibilidad": "activo"
-  },
-  {
     "id": 1042,
     "nombre": "Billetera Marrón",
     "precio": 55000,
