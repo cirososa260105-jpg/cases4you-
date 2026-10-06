@@ -204,5 +204,18 @@
     ],
     "estado": "publicado",
     "disponibilidad": "activo"
+  },
+  {
+    "id": 1791298730567,
+    "nombre": "Case Mag Safe celeste",
+    "precio": 60000,
+    "categoria": "cases",
+    "descripcion": "Case con proteccion total Mag Safe Celeste",
+    "imagenUrl": "https://img.ltwebstatic.com/v4/j/spmp/2026/03/16/9c/177364402408df4aa687f40113f9a542c01da3f07d.webp",
+    "modelos": [
+      "17 Pro Max"
+    ],
+    "estado": "publicado",
+    "disponibilidad": "activo"
   }
 ]
