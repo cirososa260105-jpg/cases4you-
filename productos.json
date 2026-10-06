@@ -209,11 +209,11 @@
   },
   {
     "id": 1017,
-    "nombre": "Coral azul",
-    "precio": null,
+    "nombre": "Case Coral Azul",
+    "precio": 60000,
     "categoria": "cases",
-    "descripcion": "",
-    "imagenUrl": "",
+    "descripcion": "Case con diseño de coral azul",
+    "imagenUrl": "https://img.ltwebstatic.com/v4/j/spmp/2025/08/21/b3/1755742804be2df1ab6a3e34f63349e187b3efb370.webp",
     "modelos": [
       "17 Pro Max"
     ],
