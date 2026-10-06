@@ -409,19 +409,6 @@
     "disponibilidad": "activo"
   },
   {
-    "id": 1039,
-    "nombre": "Básico Azul oscuro",
-    "precio": null,
-    "categoria": "cases",
-    "descripcion": "",
-    "imagenUrl": "",
-    "modelos": [
-      "16"
-    ],
-    "estado": "borrador",
-    "disponibilidad": "activo"
-  },
-  {
     "id": 1042,
     "nombre": "Billetera Marrón",
     "precio": 55000,
