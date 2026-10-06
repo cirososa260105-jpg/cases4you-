@@ -70,19 +70,6 @@
     "disponibilidad": "activo"
   },
   {
-    "id": 1032,
-    "nombre": "Negro Soporte Mag Safe",
-    "precio": null,
-    "categoria": "cases",
-    "descripcion": "",
-    "imagenUrl": "",
-    "modelos": [
-      "15"
-    ],
-    "estado": "borrador",
-    "disponibilidad": "activo"
-  },
-  {
     "id": 1036,
     "nombre": "Case Gris",
     "precio": 60000,
