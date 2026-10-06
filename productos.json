@@ -57,19 +57,6 @@
     "disponibilidad": "activo"
   },
   {
-    "id": 1028,
-    "nombre": "Negro Soporte Mag Safe",
-    "precio": null,
-    "categoria": "cases",
-    "descripcion": "",
-    "imagenUrl": "",
-    "modelos": [
-      "16 Pro Max"
-    ],
-    "estado": "borrador",
-    "disponibilidad": "activo"
-  },
-  {
     "id": 1031,
     "nombre": "Gatito",
     "precio": null,
