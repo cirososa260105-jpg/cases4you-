@@ -290,12 +290,14 @@
   },
   {
     "id": 1023,
-    "nombre": "Coral Rosado",
-    "precio": null,
+    "nombre": "Case Coral Rosado",
+    "precio": 60000,
     "categoria": "cases",
-    "descripcion": "",
-    "imagenUrl": "",
+    "descripcion": "Case con diseño de corales rosados",
+    "imagenUrl": "https://img.ltwebstatic.com/v4/j/spmp/2025/07/01/4b/17513626645cea81d8db34f1780a08e5442e6d9c7e.webp",
     "modelos": [
+      "17 Pro Max",
+      "17 Pro",
       "16 Pro"
     ],
     "estado": "borrador",
