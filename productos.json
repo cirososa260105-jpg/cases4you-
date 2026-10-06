@@ -26,19 +26,6 @@
     "disponibilidad": "activo"
   },
   {
-    "id": 1003,
-    "nombre": "Mag Safe Original",
-    "precio": null,
-    "categoria": "cases",
-    "descripcion": "",
-    "imagenUrl": "",
-    "modelos": [
-      "15 Pro Max"
-    ],
-    "estado": "borrador",
-    "disponibilidad": "activo"
-  },
-  {
     "id": 1004,
     "nombre": "Mag Safe Original",
     "precio": null,
