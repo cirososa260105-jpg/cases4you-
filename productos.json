@@ -356,19 +356,6 @@
     "disponibilidad": "activo"
   },
   {
-    "id": 1029,
-    "nombre": "Caballo negro",
-    "precio": null,
-    "categoria": "cases",
-    "descripcion": "",
-    "imagenUrl": "",
-    "modelos": [
-      "16 Pro Max"
-    ],
-    "estado": "borrador",
-    "disponibilidad": "activo"
-  },
-  {
     "id": 1030,
     "nombre": "Caballo Negro",
     "precio": null,
