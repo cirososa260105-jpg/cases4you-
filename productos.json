@@ -1,18 +1,5 @@
 [
   {
-    "id": 1011,
-    "nombre": "Negro con naranja Mag Safe",
-    "precio": null,
-    "categoria": "cases",
-    "descripcion": "",
-    "imagenUrl": "",
-    "modelos": [
-      "14"
-    ],
-    "estado": "borrador",
-    "disponibilidad": "activo"
-  },
-  {
     "id": 1012,
     "nombre": "Negro con naranja Mag Safe",
     "precio": null,
