@@ -291,19 +291,6 @@
     "disponibilidad": "activo"
   },
   {
-    "id": 1024,
-    "nombre": "Caballo negro",
-    "precio": null,
-    "categoria": "cases",
-    "descripcion": "",
-    "imagenUrl": "",
-    "modelos": [
-      "16 Pro"
-    ],
-    "estado": "borrador",
-    "disponibilidad": "activo"
-  },
-  {
     "id": 1026,
     "nombre": "Coral Rosado",
     "precio": null,
