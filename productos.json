@@ -1,18 +1,5 @@
 [
   {
-    "id": 1006,
-    "nombre": "Mag Safe Original",
-    "precio": null,
-    "categoria": "cases",
-    "descripcion": "",
-    "imagenUrl": "",
-    "modelos": [
-      "16 Pro"
-    ],
-    "estado": "borrador",
-    "disponibilidad": "activo"
-  },
-  {
     "id": 1007,
     "nombre": "Mag Safe Original",
     "precio": null,
