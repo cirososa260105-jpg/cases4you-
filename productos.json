@@ -1,18 +1,5 @@
 [
   {
-    "id": 1014,
-    "nombre": "Negro con naranja Mag Safe",
-    "precio": null,
-    "categoria": "cases",
-    "descripcion": "",
-    "imagenUrl": "",
-    "modelos": [
-      "14 Pro"
-    ],
-    "estado": "borrador",
-    "disponibilidad": "activo"
-  },
-  {
     "id": 1015,
     "nombre": "Case Floreada",
     "precio": 60000,
