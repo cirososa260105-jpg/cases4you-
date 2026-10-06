@@ -183,15 +183,15 @@
   },
   {
     "id": 1015,
-    "nombre": "Flores",
-    "precio": null,
+    "nombre": "Case Floreada",
+    "precio": 60000,
     "categoria": "cases",
-    "descripcion": "",
-    "imagenUrl": "",
+    "descripcion": "Case con diseño de flores",
+    "imagenUrl": "https://img.ltwebstatic.com/v4/j/spmp/2026/04/17/11/1776392658d1cd7098d78ebe30ddd740ec4e03b461.webp",
     "modelos": [
       "17 Pro Max"
     ],
-    "estado": "borrador",
+    "estado": "publicado",
     "disponibilidad": "activo"
   },
   {
