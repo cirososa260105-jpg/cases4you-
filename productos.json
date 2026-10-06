@@ -235,15 +235,18 @@
   },
   {
     "id": 1019,
-    "nombre": "Caballo negro",
-    "precio": null,
+    "nombre": "Case Negro Jinete",
+    "precio": 60000,
     "categoria": "cases",
-    "descripcion": "",
-    "imagenUrl": "",
+    "descripcion": "Case negra con diseño de jinete",
+    "imagenUrl": "https://img.ltwebstatic.com/v4/p/spmp/2026/05/05/ae/17779687361cadce7f3b038b6c72ee280ad344cace.webp",
     "modelos": [
-      "17 Pro Max"
+      "17 Pro",
+      "16 Pro Max",
+      "16 Pro",
+      "13 Pro"
     ],
-    "estado": "borrador",
+    "estado": "publicado",
     "disponibilidad": "activo"
   },
   {
