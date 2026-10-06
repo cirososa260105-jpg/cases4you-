@@ -1,18 +1,5 @@
 [
   {
-    "id": 1013,
-    "nombre": "Negro con naranja Mag Safe",
-    "precio": null,
-    "categoria": "cases",
-    "descripcion": "",
-    "imagenUrl": "",
-    "modelos": [
-      "15 Pro"
-    ],
-    "estado": "borrador",
-    "disponibilidad": "activo"
-  },
-  {
     "id": 1014,
     "nombre": "Negro con naranja Mag Safe",
     "precio": null,
