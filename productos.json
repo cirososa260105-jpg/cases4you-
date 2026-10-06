@@ -96,19 +96,6 @@
     "disponibilidad": "activo"
   },
   {
-    "id": 1033,
-    "nombre": "Negro soporte Mag Safe",
-    "precio": null,
-    "categoria": "cases",
-    "descripcion": "",
-    "imagenUrl": "",
-    "modelos": [
-      "14 Pro Max"
-    ],
-    "estado": "borrador",
-    "disponibilidad": "activo"
-  },
-  {
     "id": 1036,
     "nombre": "Case Gris",
     "precio": 60000,
