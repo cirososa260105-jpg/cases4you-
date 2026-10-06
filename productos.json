@@ -182,19 +182,6 @@
     "disponibilidad": "activo"
   },
   {
-    "id": 1016,
-    "nombre": "Coral rosado",
-    "precio": null,
-    "categoria": "cases",
-    "descripcion": "",
-    "imagenUrl": "",
-    "modelos": [
-      "17 Pro Max"
-    ],
-    "estado": "borrador",
-    "disponibilidad": "activo"
-  },
-  {
     "id": 1017,
     "nombre": "Case Coral Azul",
     "precio": 60000,
