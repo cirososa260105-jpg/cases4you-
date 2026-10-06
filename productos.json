@@ -217,5 +217,21 @@
     ],
     "estado": "publicado",
     "disponibilidad": "activo"
+  },
+  {
+    "id": 1791301233991,
+    "nombre": "Case con soporte de camara",
+    "precio": 60000,
+    "categoria": "cases",
+    "descripcion": "Case con Mag Safe y soporte",
+    "imagenUrl": "https://img.ltwebstatic.com/v4/j/spmp/2025/07/22/24/17531172889eeb43cfce3d79d44b543eef6fd0e76c.webp",
+    "modelos": [
+      "16 Pro Max",
+      "16 Pro",
+      "14 Pro Max",
+      "15"
+    ],
+    "estado": "publicado",
+    "disponibilidad": "activo"
   }
 ]
