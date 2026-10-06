@@ -487,19 +487,6 @@
     "disponibilidad": "activo"
   },
   {
-    "id": 1041,
-    "nombre": "Básico Lila",
-    "precio": null,
-    "categoria": "cases",
-    "descripcion": "",
-    "imagenUrl": "",
-    "modelos": [
-      "17 Pro Max"
-    ],
-    "estado": "borrador",
-    "disponibilidad": "activo"
-  },
-  {
     "id": 1042,
     "nombre": "Billetera Marrón",
     "precio": 55000,
