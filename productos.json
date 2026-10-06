@@ -343,19 +343,6 @@
     "disponibilidad": "activo"
   },
   {
-    "id": 1030,
-    "nombre": "Caballo Negro",
-    "precio": null,
-    "categoria": "cases",
-    "descripcion": "",
-    "imagenUrl": "",
-    "modelos": [
-      "13 Pro"
-    ],
-    "estado": "borrador",
-    "disponibilidad": "activo"
-  },
-  {
     "id": 1031,
     "nombre": "Gatito",
     "precio": null,
