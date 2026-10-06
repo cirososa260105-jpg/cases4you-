@@ -456,15 +456,16 @@
   },
   {
     "id": 1036,
-    "nombre": "Básico Azul oscuro",
-    "precio": null,
+    "nombre": "Case Gris",
+    "precio": 60000,
     "categoria": "cases",
-    "descripcion": "",
-    "imagenUrl": "",
+    "descripcion": "Case con protección total del celular",
+    "imagenUrl": "https://img.ltwebstatic.com/v4/j/spmp/2025/10/10/49/1760082780270eccbb2792abc432d4431efaa9e56c.webp",
     "modelos": [
-      "16 Pro Max"
+      "17 Pro",
+      "16 Pro"
     ],
-    "estado": "borrador",
+    "estado": "publicado",
     "disponibilidad": "activo"
   },
   {
