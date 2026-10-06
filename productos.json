@@ -58,15 +58,15 @@
   },
   {
     "id": 1031,
-    "nombre": "Gatito",
-    "precio": null,
+    "nombre": "Case Gatito",
+    "precio": 60000,
     "categoria": "cases",
-    "descripcion": "",
-    "imagenUrl": "",
+    "descripcion": "Case con diseño de Gatito",
+    "imagenUrl": "https://img.ltwebstatic.com/v4/p/spmp/2026/03/04/9a/1772618939543bd275279a84f6eaa27a1892c242a9.webp",
     "modelos": [
       "13"
     ],
-    "estado": "borrador",
+    "estado": "publicado",
     "disponibilidad": "activo"
   },
   {
